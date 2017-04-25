@@ -48,7 +48,7 @@ h2{
   background-color: rgba(48, 44, 44, 0.5);
 }
 .breadcrumb {
-  width: 460px;
+  width: 700px;
   min-height: 32px;
   background-color: rgba(48, 44, 44, 0.5);
 }
@@ -149,9 +149,36 @@ background-color: rgba(244, 176, 176, 0.3);
   margin-top: 60px;
   margin-bottom: 28px;
 }
-.main h1 {
+.main-title {
   margin: 0;
   padding: 0;
+}
+.product-galery {
+  width: 460px;
+  min-height: 668px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(244, 247, 152, 0.5);
+}
+.product-galery a {
+  margin-top: 20px;
+  margin-right: 16px;
+  display: inline-block;
+}
+.product-galery a:last-child {
+  margin-right: 0;
+}
+.product-galery a:first-child {
+  margin-top: 0;
+  margin-right: 0;
+}
+.product-information {
+  width: 400px;
+  min-height: 620px;
+  float: right;
+  margin-top: 50px;
+  background-color: rgba(244, 247, 152, 0.5);
 }
 .container {
   width:940px;
