@@ -160,11 +160,13 @@ background-color: rgba(244, 176, 176, 0.3);
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: rgba(244, 247, 152, 0.5);
+  font-size: 0;
 }
 .product-galery a {
   margin-top: 20px;
-  margin-right: 16px;
+  margin-right: 20px;
   display: inline-block;
+  font-size: 17px;
 }
 .product-galery a:last-child {
   margin-right: 0;
